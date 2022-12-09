@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ch5_rs_server" />
+        <module name="ch3_cxf_server" />
+        <module name="ch3_cxf_client" />
+        <module name="ch5_rs_client" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ch2_client_1" target="1.8" />
+      <module name="ch2_server_1" target="1.8" />
+      <module name="ch3_cxf_client" target="1.7" />
+      <module name="ch3_cxf_server" target="1.8" />
+      <module name="ch4_rest_server1" target="1.7" />
+      <module name="ch5_rs_client" target="1.8" />
+      <module name="ch5_rs_server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

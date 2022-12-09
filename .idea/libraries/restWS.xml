@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="restWS">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/restWS/asm-9.1.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/restWS/javax.ws.rs-api-2.1.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/restWS/jersey-bundle-1.19.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/restWS/jersey-client-1.19.4.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/restWS/jersey-core-1.19.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/restWS/jersey-json-1.19.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/restWS/jersey-server-1.19.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/restWS/jersey-servlet-1.19.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/restWS/jsr311-api-1.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<girls>
+    <girl id="1">
+        <name>小丽</name>
+        <age>23</age>
+    </girl>
+    <girl id="2">
+        <name>小娟</name>
+        <age>23</age>
+    </girl>
+    <girl id="3">
+         <name>小红</name>
+        <age>23</age>
+    </girl>
+</girls>

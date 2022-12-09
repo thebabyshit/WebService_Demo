@@ -1,0 +1,232 @@
+2022-11-28 14:55:35,297 0      [           main] INFO  apache.cxf.endpoint.ServerImpl  - Setting the server's publish address to be http://localhost:8001/ws/
+2022-11-28 14:55:35,377 80     [           main] INFO  rg.eclipse.jetty.server.Server  - jetty-8.1.15.v20140411
+2022-11-28 14:55:36,488 1191   [           main] INFO  jetty.server.AbstractConnector  - Started SelectChannelConnector@localhost:8001
+2022-11-28 15:00:29,831 294534 [qtp315138752-22] INFO  terceptor.LoggingInInterceptor  - Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:8001/ws/userService/user
+Encoding: ISO-8859-1
+Http-Method: POST
+Content-Type: application/xml
+Headers: {Accept=[*/*], Cache-Control=[no-cache], connection=[keep-alive], Content-Length=[121], content-type=[application/xml], Host=[localhost:8001], Pragma=[no-cache], User-Agent=[Apache CXF 3.0.1]}
+Payload: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><User><city>YC</city><id>11</id><username>zhoubo</username></User>
+--------------------------------------
+2022-11-28 15:00:30,031 294734 [qtp315138752-22] INFO  erceptor.LoggingOutInterceptor  - Outbound Message
+---------------------------
+ID: 1
+Response-Code: 204
+Content-Type: 
+Headers: {Date=[Mon, 28 Nov 2022 07:00:30 GMT], Content-Length=[0]}
+--------------------------------------
+2022-11-28 15:02:20,406 405109 [qtp315138752-20] INFO  terceptor.LoggingInInterceptor  - Inbound Message
+----------------------------
+ID: 2
+Address: http://localhost:8001/ws/userService/user
+Encoding: ISO-8859-1
+Http-Method: POST
+Content-Type: application/xml
+Headers: {Accept=[*/*], Cache-Control=[no-cache], connection=[keep-alive], Content-Length=[121], content-type=[application/xml], Host=[localhost:8001], Pragma=[no-cache], User-Agent=[Apache CXF 3.0.1]}
+Payload: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><User><city>YC</city><id>11</id><username>zhoubo</username></User>
+--------------------------------------
+2022-11-28 15:02:20,417 405120 [qtp315138752-20] INFO  erceptor.LoggingOutInterceptor  - Outbound Message
+---------------------------
+ID: 2
+Response-Code: 204
+Content-Type: 
+Headers: {Date=[Mon, 28 Nov 2022 07:02:20 GMT], Content-Length=[0]}
+--------------------------------------
+2022-11-28 15:03:41,931 486634 [qtp315138752-19] INFO  terceptor.LoggingInInterceptor  - Inbound Message
+----------------------------
+ID: 3
+Address: http://localhost:8001/ws/userService/user
+Encoding: ISO-8859-1
+Http-Method: POST
+Content-Type: application/json
+Headers: {Accept=[*/*], Cache-Control=[no-cache], connection=[keep-alive], Content-Length=[50], content-type=[application/json], Host=[localhost:8001], Pragma=[no-cache], User-Agent=[Apache CXF 3.0.1]}
+Payload: {"User":{"city":"YC","id":11,"username":"zhoubo"}}
+--------------------------------------
+2022-11-28 15:03:41,961 486664 [qtp315138752-19] INFO  erceptor.LoggingOutInterceptor  - Outbound Message
+---------------------------
+ID: 3
+Response-Code: 204
+Content-Type: 
+Headers: {Date=[Mon, 28 Nov 2022 07:03:41 GMT], Content-Length=[0]}
+--------------------------------------
+2022-11-28 15:04:16,740 521443 [qtp315138752-20] INFO  terceptor.LoggingInInterceptor  - Inbound Message
+----------------------------
+ID: 4
+Address: http://localhost:8001/ws/userService/user
+Encoding: ISO-8859-1
+Http-Method: POST
+Content-Type: application/json
+Headers: {Accept=[*/*], Cache-Control=[no-cache], connection=[keep-alive], Content-Length=[50], content-type=[application/json], Host=[localhost:8001], Pragma=[no-cache], User-Agent=[Apache CXF 3.0.1]}
+Payload: {"User":{"city":"YC","id":11,"username":"zhoubo"}}
+--------------------------------------
+2022-11-28 15:04:16,740 521443 [qtp315138752-20] INFO  erceptor.LoggingOutInterceptor  - Outbound Message
+---------------------------
+ID: 4
+Response-Code: 204
+Content-Type: 
+Headers: {Date=[Mon, 28 Nov 2022 07:04:16 GMT], Content-Length=[0]}
+--------------------------------------
+2022-11-28 15:06:10,478 635181 [qtp315138752-19] INFO  terceptor.LoggingInInterceptor  - Inbound Message
+----------------------------
+ID: 5
+Address: http://localhost:8001/ws/userService/user/1
+Http-Method: GET
+Content-Type: application/json
+Headers: {Accept=[application/xml], Cache-Control=[no-cache], connection=[keep-alive], content-type=[application/json], Host=[localhost:8001], Pragma=[no-cache], User-Agent=[Apache CXF 3.0.1]}
+--------------------------------------
+2022-11-28 15:06:10,488 635191 [qtp315138752-19] INFO  erceptor.LoggingOutInterceptor  - Outbound Message
+---------------------------
+ID: 5
+Response-Code: 200
+Content-Type: application/xml
+Headers: {Content-Type=[application/xml], Date=[Mon, 28 Nov 2022 07:06:10 GMT]}
+Payload: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><User><city>北京</city><id>1</id><username>小明</username></User>
+--------------------------------------
+2022-11-28 16:37:27,439 0      [           main] INFO  apache.cxf.endpoint.ServerImpl  - Setting the server's publish address to be http://localhost:8001/ws/
+2022-11-28 16:37:27,550 111    [           main] INFO  rg.eclipse.jetty.server.Server  - jetty-8.1.15.v20140411
+2022-11-28 16:37:29,049 1610   [           main] INFO  jetty.server.AbstractConnector  - Started SelectChannelConnector@localhost:8001
+2022-11-28 16:42:24,044 296605 [qtp315138752-18] INFO  terceptor.LoggingInInterceptor  - Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:8001/ws/userService/user
+Encoding: ISO-8859-1
+Http-Method: POST
+Content-Type: application/json
+Headers: {Accept=[*/*], Cache-Control=[no-cache], connection=[keep-alive], Content-Length=[50], content-type=[application/json], Host=[localhost:8001], Pragma=[no-cache], User-Agent=[Apache CXF 3.0.1]}
+Payload: {"User":{"city":"YC","id":11,"username":"zhoubo"}}
+--------------------------------------
+2022-11-28 16:42:24,229 296790 [qtp315138752-18] INFO  erceptor.LoggingOutInterceptor  - Outbound Message
+---------------------------
+ID: 1
+Response-Code: 204
+Content-Type: 
+Headers: {Date=[Mon, 28 Nov 2022 08:42:24 GMT], Content-Length=[0]}
+--------------------------------------
+2022-11-28 16:43:53,344 385905 [qtp315138752-18] INFO  terceptor.LoggingInInterceptor  - Inbound Message
+----------------------------
+ID: 2
+Address: http://localhost:8001/ws/userService/user/1
+Http-Method: GET
+Content-Type: application/json
+Headers: {Accept=[application/xml], Cache-Control=[no-cache], connection=[keep-alive], content-type=[application/json], Host=[localhost:8001], Pragma=[no-cache], User-Agent=[Apache CXF 3.0.1]}
+--------------------------------------
+2022-11-28 16:43:53,359 385920 [qtp315138752-18] INFO  erceptor.LoggingOutInterceptor  - Outbound Message
+---------------------------
+ID: 2
+Response-Code: 200
+Content-Type: application/xml
+Headers: {Content-Type=[application/xml], Date=[Mon, 28 Nov 2022 08:43:53 GMT]}
+Payload: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><User><city>北京</city><id>1</id><username>小明</username></User>
+--------------------------------------
+2022-11-28 19:48:40,232 0      [           main] INFO  apache.cxf.endpoint.ServerImpl  - Setting the server's publish address to be http://localhost:8001/ws/
+2022-11-28 19:48:40,420 188    [           main] INFO  rg.eclipse.jetty.server.Server  - jetty-8.1.15.v20140411
+2022-11-28 19:48:41,895 1663   [           main] INFO  jetty.server.AbstractConnector  - Started SelectChannelConnector@localhost:8001
+2022-11-28 19:50:56,179 135947 [qtp315138752-16] INFO  terceptor.LoggingInInterceptor  - Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:8001/ws/userService/user
+Encoding: ISO-8859-1
+Http-Method: POST
+Content-Type: application/json
+Headers: {Accept=[*/*], Cache-Control=[no-cache], connection=[keep-alive], Content-Length=[50], content-type=[application/json], Host=[localhost:8001], Pragma=[no-cache], User-Agent=[Apache CXF 3.0.1]}
+Payload: {"User":{"city":"YC","id":11,"username":"zhoubo"}}
+--------------------------------------
+2022-11-28 19:50:56,425 136193 [qtp315138752-16] INFO  erceptor.LoggingOutInterceptor  - Outbound Message
+---------------------------
+ID: 1
+Response-Code: 204
+Content-Type: 
+Headers: {Date=[Mon, 28 Nov 2022 11:50:56 GMT], Content-Length=[0]}
+--------------------------------------
+2022-11-28 19:52:18,156 217924 [qtp315138752-16] INFO  terceptor.LoggingInInterceptor  - Inbound Message
+----------------------------
+ID: 2
+Address: http://localhost:8001/ws/userService/user/1
+Http-Method: GET
+Content-Type: application/json
+Headers: {Accept=[application/xml], Cache-Control=[no-cache], connection=[keep-alive], content-type=[application/json], Host=[localhost:8001], Pragma=[no-cache], User-Agent=[Apache CXF 3.0.1]}
+--------------------------------------
+2022-11-28 19:52:18,195 217963 [qtp315138752-16] INFO  erceptor.LoggingOutInterceptor  - Outbound Message
+---------------------------
+ID: 2
+Response-Code: 200
+Content-Type: application/xml
+Headers: {Content-Type=[application/xml], Date=[Mon, 28 Nov 2022 11:52:18 GMT]}
+Payload: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><User><city>北京</city><id>1</id><username>小明</username></User>
+--------------------------------------
+2022-11-28 20:00:24,910 0      [           main] INFO  y.ReflectionServiceFactoryBean  - Creating Service {http://impl.example.org/}HelloServiceImplService from class org.example.HelloService
+2022-11-28 20:00:25,690 780    [           main] INFO  apache.cxf.endpoint.ServerImpl  - Setting the server's publish address to be http://localhost:8000/ws/hello
+2022-11-28 20:00:25,730 820    [           main] INFO  rg.eclipse.jetty.server.Server  - jetty-8.1.15.v20140411
+2022-11-28 20:00:26,880 1970   [           main] INFO  jetty.server.AbstractConnector  - Started SelectChannelConnector@localhost:8000
+2022-11-28 20:00:57,912 0      [           main] INFO  y.ReflectionServiceFactoryBean  - Creating Service {http://impl.example.org/}HelloServiceImplService from class org.example.HelloService
+2022-11-28 20:00:58,555 643    [           main] INFO  apache.cxf.endpoint.ServerImpl  - Setting the server's publish address to be http://localhost:8000/ws/hello
+2022-11-28 20:00:58,600 688    [           main] INFO  rg.eclipse.jetty.server.Server  - jetty-8.1.15.v20140411
+2022-11-28 20:00:59,860 1948   [           main] INFO  jetty.server.AbstractConnector  - Started SelectChannelConnector@localhost:8000
+2022-11-28 20:01:09,435 11523  [tp1297502382-18] INFO  loServiceImplPort.HelloService  - Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:8000/ws/hello
+Encoding: UTF-8
+Http-Method: POST
+Content-Type: text/xml; charset=UTF-8
+Headers: {Accept=[*/*], Cache-Control=[no-cache], connection=[keep-alive], Content-Length=[186], content-type=[text/xml; charset=UTF-8], Host=[localhost:8000], Pragma=[no-cache], SOAPAction=[""], User-Agent=[Apache CXF 3.0.1]}
+Payload: <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ns2:sayHello xmlns:ns2="http://example.org/"><arg0>NXU</arg0></ns2:sayHello></soap:Body></soap:Envelope>
+--------------------------------------
+2022-11-28 20:01:09,640 11728  [tp1297502382-18] INFO  loServiceImplPort.HelloService  - Outbound Message
+---------------------------
+ID: 1
+Response-Code: 200
+Encoding: UTF-8
+Content-Type: text/xml
+Headers: {}
+Payload: <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ns2:sayHelloResponse xmlns:ns2="http://example.org/"><return>Halo:NXU</return></ns2:sayHelloResponse></soap:Body></soap:Envelope>
+--------------------------------------
+2022-11-29 19:22:54,615 0      [           main] INFO  y.ReflectionServiceFactoryBean  - Creating Service {http://impl.example.org/}HelloServiceImplService from class org.example.HelloService
+2022-11-29 19:22:55,594 979    [           main] INFO  apache.cxf.endpoint.ServerImpl  - Setting the server's publish address to be http://localhost:8000/ws/hello
+2022-11-29 19:22:55,642 1027   [           main] INFO  rg.eclipse.jetty.server.Server  - jetty-8.1.15.v20140411
+2022-11-29 19:22:56,717 2102   [           main] INFO  jetty.server.AbstractConnector  - Started SelectChannelConnector@localhost:8000
+2022-11-29 19:23:09,913 15298  [tp1297502382-18] INFO  loServiceImplPort.HelloService  - Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:8000/ws/hello
+Encoding: UTF-8
+Http-Method: POST
+Content-Type: text/xml; charset=UTF-8
+Headers: {Accept=[*/*], Cache-Control=[no-cache], connection=[keep-alive], Content-Length=[186], content-type=[text/xml; charset=UTF-8], Host=[localhost:8000], Pragma=[no-cache], SOAPAction=[""], User-Agent=[Apache CXF 3.0.1]}
+Payload: <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ns2:sayHello xmlns:ns2="http://example.org/"><arg0>NXU</arg0></ns2:sayHello></soap:Body></soap:Envelope>
+--------------------------------------
+2022-11-29 19:23:10,182 15567  [tp1297502382-18] INFO  loServiceImplPort.HelloService  - Outbound Message
+---------------------------
+ID: 1
+Response-Code: 200
+Encoding: UTF-8
+Content-Type: text/xml
+Headers: {}
+Payload: <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ns2:sayHelloResponse xmlns:ns2="http://example.org/"><return>Halo:NXU</return></ns2:sayHelloResponse></soap:Body></soap:Envelope>
+--------------------------------------
+2022-12-01 08:43:35,287 0      [           main] INFO  y.ReflectionServiceFactoryBean  - Creating Service {http://impl.example.org/}HelloServiceImplService from class org.example.HelloService
+2022-12-01 08:43:36,276 989    [           main] INFO  apache.cxf.endpoint.ServerImpl  - Setting the server's publish address to be http://localhost:8000/ws/hello
+2022-12-01 08:43:36,313 1026   [           main] INFO  rg.eclipse.jetty.server.Server  - jetty-8.1.15.v20140411
+2022-12-01 08:43:37,752 2465   [           main] INFO  jetty.server.AbstractConnector  - Started SelectChannelConnector@localhost:8000
+2022-12-01 08:44:15,373 40086  [tp1297502382-16] INFO  loServiceImplPort.HelloService  - Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:8000/ws/hello
+Encoding: UTF-8
+Http-Method: POST
+Content-Type: text/xml; charset=UTF-8
+Headers: {Accept=[*/*], Cache-Control=[no-cache], connection=[keep-alive], Content-Length=[190], content-type=[text/xml; charset=UTF-8], Host=[localhost:8000], Pragma=[no-cache], SOAPAction=[""], User-Agent=[Apache CXF 3.0.1]}
+Payload: <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ns2:sayHello xmlns:ns2="http://example.org/"><arg0>NXU2022</arg0></ns2:sayHello></soap:Body></soap:Envelope>
+--------------------------------------
+2022-12-01 08:44:15,672 40385  [tp1297502382-16] INFO  loServiceImplPort.HelloService  - Outbound Message
+---------------------------
+ID: 1
+Response-Code: 200
+Encoding: UTF-8
+Content-Type: text/xml
+Headers: {}
+Payload: <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ns2:sayHelloResponse xmlns:ns2="http://example.org/"><return>Halo:NXU2022</return></ns2:sayHelloResponse></soap:Body></soap:Envelope>
+--------------------------------------

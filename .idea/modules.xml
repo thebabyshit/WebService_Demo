@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ch3_cxf_client/ch3_cxf_client.iml" filepath="$PROJECT_DIR$/ch3_cxf_client/ch3_cxf_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch3_cxf_server/ch3_cxf_server.iml" filepath="$PROJECT_DIR$/ch3_cxf_server/ch3_cxf_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch5_rs_client/ch5_rs_client.iml" filepath="$PROJECT_DIR$/ch5_rs_client/ch5_rs_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch5_rs_server/ch5_rs_server.iml" filepath="$PROJECT_DIR$/ch5_rs_server/ch5_rs_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch6_xml/ch6_xml.iml" filepath="$PROJECT_DIR$/ch6_xml/ch6_xml.iml" />
+    </modules>
+  </component>
+</project>
